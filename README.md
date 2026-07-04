@@ -16,7 +16,7 @@ Display live system stats on Windows's taskbar
 ## Donation
 Eat to live, live to code
 
-<a href="https://www.buymeacoffee.com/hoangnc"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a rice bowl&emoji=🍚&slug=hoangnc&button_colour=40DCA5&font_colour=ffffff&font_family=Comic&outline_colour=000000&coffee_colour=FFDD00"></a>
+[<img src="https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Donate with PayPal">](https://www.paypal.com/paypalme/hoangnc)
 
 ### Features
 
@@ -28,8 +28,14 @@ Eat to live, live to code
 
 ### System requirements
 
-- Windows 10 32bit/64bit
-- [Windwos 11 is currently not compatible](https://github.com/openhoangnc/taskbar-stats/issues/31)
+- **Windows 10** (32-bit / 64-bit) - Native support
+- **Windows 11** - Supported via [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) (restores Windows 10 Taskbar DeskBand support)
+
+#### Windows 11 Usage Instructions
+Microsoft removed native DeskBand toolbar support in Windows 11. To run **TaskbarStats** on Windows 11:
+1. Install [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) to enable Windows 10 taskbar toolbar support.
+2. Install **TaskbarStats**.
+3. Right-click the taskbar -> **Toolbars** -> select **CpuRam**, **NetSpeed**, etc.
 
 ### [License](https://github.com/openhoangnc/taskbar-stats/blob/master/LICENSE.md)
 This is free of charge software. You are allowed to:
