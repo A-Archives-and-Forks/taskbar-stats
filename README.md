@@ -37,6 +37,17 @@ Microsoft removed native DeskBand toolbar support in Windows 11. To run **Taskba
 2. Install **TaskbarStats**.
 3. Right-click the taskbar -> **Toolbars** -> select **CpuRam**, **NetSpeed**, etc.
 
+### On macOS? Try MacStats
+
+If you're on a Mac, check out [**MacStats**](https://github.com/openhoangnc/mac-stats) — a lightweight native menu bar app that brings the same live system stats to macOS:
+
+- Displays network speed, CPU/RAM usage, and CPU temperature right in the menu bar
+- Built in pure Swift with no external dependencies — minimal resource footprint
+- Dynamic color coding (green → yellow → red) based on system load
+- Automatic SMC sensor detection for both Intel and Apple Silicon Macs
+- Configurable refresh rate, °C/°F toggle, and launch-at-login support
+- Requires **macOS 11.0** or later
+
 ### [License](https://github.com/openhoangnc/taskbar-stats/blob/master/LICENSE.md)
 This is free of charge software. You are allowed to:
 - Private use
